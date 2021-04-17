@@ -1,0 +1,39 @@
+body {
+    background-color: aliceblue;
+    margin: 20px;
+    border: 20px solid white;
+}
+
+.bio {
+    background-color: rgb(181, 201, 238);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    border: 3px solid steelblue;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.committees {
+    flex: 1;
+}
+
+.legislation {
+    flex: 2;
+}
